@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         //בדיקת גיטהאב
         wv.loadUrl(stringUrl);
         wv.setWebViewClient(new MyWebClientbyViewClient());
+        //....בדיקה222
     }
 
     private class MyWebClientbyViewClient extends WebViewClient {
