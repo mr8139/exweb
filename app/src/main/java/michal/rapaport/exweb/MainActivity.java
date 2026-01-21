@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         wv=findViewById(R.id.wv);
         wv.getSettings().setJavaScriptEnabled(true);
         String stringUrl = "https://www.inn.co.il/";
+        //בדיקת גיטהאב
         wv.loadUrl(stringUrl);
         wv.setWebViewClient(new MyWebClientbyViewClient());
     }
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
        {
            view.loadUrl(url);
            return true;
+
        }
     }
 }
